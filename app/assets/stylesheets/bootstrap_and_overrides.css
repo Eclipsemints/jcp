@@ -1,0 +1,132 @@
+/*
+  =require twitter-bootstrap-static/bootstrap
+
+  Use Font Awesome icons (default)
+  To use Glyphicons sprites instead of Font Awesome, replace with "require twitter-bootstrap-static/sprites"
+  =require twitter-bootstrap-static/fontawesome
+  */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.background-img {
+    z-index: -30;
+    margin: 0 auto -4em;
+    padding: 0 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    height: auto !important;
+    display: block;
+    position: fixed;
+}
+
+.footer_menu {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    padding-right: 10px;
+    height: 32px;
+    position: fixed;
+    z-index: -1;
+    opacity: .3;
+    bottom: 0;
+}
+
+.menu {
+    float: right;
+
+    padding-right: 100px;
+}
+
+.footer_menu_items {
+    text-decoration: none;
+    bottom: 0;
+    opacity: .8;
+    height: 30px;
+    width: 100px;
+    color: #ffffff;
+    background-color: #000000;
+    float: left;
+    border: 1px solid #000;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+}
+
+.footer_menu_items .menu_font {
+    padding-top: 3px;
+    opacity: 1;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+}
+
+.footer_menu_items:hover,  .menu_font:hover{
+    background-color: #999999;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+}
+
+.Slogan {
+    color: #ffffff;
+    font-style: italic;
+    top: 295px;
+    left: 100px;
+    position: fixed;
+}
+
+.background-hide-img {
+    z-index: -29;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+#landscape_button:hover div#landscape_pic {
+    display: block;
+}
+
+#home_pic {
+    top: 0;
+    left: 0;
+}
+
+#portrait_pic {
+    top: -200px;
+    left: -100px;
+
+}
+
+.current_page {
+    cursor: default !important;
+    background-color: #999999 !important;
+}
+.navbar {
+    opacity: 0.2;
+    margin: 0;
+    padding: 0;
+    background-color: #9b9b9b;
+}
+
+

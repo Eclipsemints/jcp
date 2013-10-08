@@ -11,7 +11,7 @@ gem 'sqlite3'
 gem 'sass-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
+gem 'twitter-bootstrap-rails'
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
-
 

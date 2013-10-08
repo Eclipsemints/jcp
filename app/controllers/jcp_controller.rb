@@ -1,0 +1,2 @@
+class JcpController < ApplicationController
+end
