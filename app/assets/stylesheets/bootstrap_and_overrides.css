@@ -11,28 +11,15 @@ body, html {
     padding: 0;
 }
 
-.background-img {
+.background-img img, .background-img{
     z-index: -30;
-    margin: 0 auto -4em;
     padding: 0 0;
-    bottom: 0;
-    right: 0;
-    height: 100%;
-    height: auto !important;
     display: block;
-    position: fixed;
-}
-
-.footer_menu {
-    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
     height: auto;
-    background-color: #000;
-    padding-right: 10px;
-    height: 32px;
-    position: fixed;
-    z-index: -1;
-    opacity: .3;
-    bottom: 0;
 }
 
 .menu {

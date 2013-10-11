@@ -1,34 +1,9 @@
 .background-img#home_pic
-  %img{:src=>"/assets/background_JayC.jpg"}
-.background-img.background-hide-img#landscape_pic{:style=>{opacity:0}}
-  %img{:src=>"/assets/Landscape/IMG_6096.jpg"}
-.background-img.background-hide-img#portrait_pic{:style=>{opactiy:0}}
-  %img{:src=>""}
-.background-img.background-hide-img#portrait_pic{:style=>{opacity:0}}
-  %img{:src=>""}
-:javascript
-  $(document).ready(function($) {
-      $('#landscape_button').hover(function() {
-          $('#landscape_pic').animate({"opacity":"1"}, 500);
-          $('#home_pic').animate({"opacity":"0"}, 500);
-      }, function() {
-          $('#landscape_pic').animate({"opacity":"0"}, 500);
-          $('#home_pic').animate({"opacity":"1"}, 500);
-      });
-      $('#portrait_button').hover(function() {
-          $('#portrait_pic').animate({"opacity":"1"}, 500);
-          $('#home_pic').animate({"opacity":"0"}, 500);
-      }, function() {
-          $('#portrait_pic').animate({"opacity":"0"}, 500);
-          $('#home_pic').animate({"opacity":"1"}, 500);
-      });
-      $('#product_button').hover(function() {
-          $('#product_pic').animate({"opacity":"1"}, 500);
-          $('#home_pic').animate({"opacity":"0"}, 500);
-      }, function() {
-          $('#product_pic').animate({"opacity":"0"}, 500);
-          $('#home_pic').animate({"opacity":"1"}, 500);
-      });
-
-  });
+  %img{:src => "/assets/background_JayC.jpg"}
+.background-img.background-hide-img#landscape_pic
+  %img{:src => "/assets/Landscape/IMG_6096.jpg", :style => "opacity:0"}
+.background-img.background-hide-img#portrait_pic
+  %img{:src => "", :style => "opacity:0"}
+.background-img.background-hide-img#product_pic
+  %img{:src => "", :style => "opacity:0"}
 
