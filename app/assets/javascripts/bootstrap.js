@@ -1,25 +1,17 @@
 $(document).ready(function($) {
-  $('#landscape_button').hover(function() {
-    $('#landscape_pic').animate({"opacity":"1"}, 500);
-    $('#home_pic').animate({"opacity":"0"}, 500);
-  }, function() {
-    $('#landscape_pic').animate({"opacity":"0"}, 500);
-    $('#home_pic').animate({"opacity":"1"}, 500);
+  // hover over top menu buttons. hides home page picture and display each picture
+  $(".footer_menu_items").hover(function(){
+    if (window.location != "/" ){ 
+      var hoverItem = $(this).children().text();
+      hoverItem = hoverItem.toLowerCase().replace(/\s/g,"");
+      $("#"+hoverItem+"_pic").children().css("display","block");
+      if ( hoverItem != 'home'){
+        $("#home_pic").children().css("display","none");
+      }
+      else{
+        $("#home_pic").children().css("display","block");
+      }
+    }
   });
-  $('#portrait_button').hover(function() {
-    $('#portrait_pic').animate({"opacity":"1"}, 500);
-    $('#home_pic').animate({"opacity":"0"}, 500);
-  }, function() {
-    $('#portrait_pic').animate({"opacity":"0"}, 500);
-    $('#home_pic').animate({"opacity":"1"}, 500);
-  });
-  $('#product_button').hover(function() {
-    $('#product_pic').animate({"opacity":"1"}, 500);
-    $('#home_pic').animate({"opacity":"0"}, 500);
-  }, function() {
-    $('#product_pic').animate({"opacity":"0"}, 500);
-    $('#home_pic').animate({"opacity":"1"}, 500);
-  });
-
 });
 
