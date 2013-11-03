@@ -1,118 +1,84 @@
 /*
-  =require twitter-bootstrap-static/bootstrap
+=require twitter-bootstrap-static/bootstrap
 
-  Use Font Awesome icons (default)
-  To use Glyphicons sprites instead of Font Awesome, replace with "require twitter-bootstrap-static/sprites"
-  =require twitter-bootstrap-static/fontawesome
-  */
+Use Font Awesome icons (default)
+To use Glyphicons sprites instead of Font Awesome, replace with "require twitter-bootstrap-static/sprites"
+=require twitter-bootstrap-static/fontawesome
+ */
 body, html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  height: 100%;
+  min-height: 100%;
+  width:100%;
+  margin: 0;
+  padding: 0;
 }
 
 .background-img img, .background-img{
-    z-index: -10;
-    padding: 0 0;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: auto;
-    height: auto;
+  z-index: -10;
+  padding: 0 0;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  bottom: 0;
 }
 
 .menu {
-    float: right;
+  float: right;
+  padding-right: 100px;
+}
 
-    padding-right: 100px;
+.menu_font{
+  font-size: 18px;
 }
 
 .footer_menu_items {
-    text-decoration: none;
-    bottom: 0;
-    opacity: .8;
-    height: 30px;
-    width: 100px;
-    color: #ffffff;
-    background-color: #000000;
-    float: left;
-    border: 1px solid #000;
-    text-align: center;
-    border-radius: 3px;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    text-decoration: none;
-}
-
-.footer_menu_items .menu_font {
-    padding-top: 3px;
-    opacity: 1;
-    cursor: pointer;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    text-decoration: none;
+  text-decoration: none;
+  bottom: 0;
+  opacity: .8;
+  height: 30px;
+  width: 100px;
+  color: #ffffff;
+  background-color: #000000;
+  float: left;
+  border: 1px solid #000;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
 }
 
 .footer_menu_items:hover,  .menu_font:hover{
-    background-color: #999999;
-    cursor: pointer;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    text-decoration: none;
-}
-
-.Slogan {
-    color: #ffffff;
-    font-style: italic;
-    top: 295px;
-    left: 100px;
-    position: fixed;
+  background-color: #999999;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
 }
 
 .background-hide-img {
-    z-index: -29;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
-}
-
-#landscape_button:hover div#landscape_pic {
-    display: block;
-}
-
-#home_pic {
-    
-}
-
-#portrait_pic {
-    top: -200px;
-    left: -100px;
-
-}
-
-.current_page {
-    cursor: default !important;
-    background-color: #999999 !important;
+  z-index: -29;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
 .navbar {
-    opacity: 0.5;
-    margin: 0;
-    padding: 0;
-    background-color: #9b9b9b;
+  opacity: 0.5;
+  margin: 0;
+  padding: 0;
+  background-color: #9b9b9b;
 }
 
 
