@@ -1,3 +1,9 @@
 .carousel{
-    overflow: hidden;
+  overflow: hidden;
 }
+
+.carousel-inner {
+  overflow: hidden;
+}
+
+
