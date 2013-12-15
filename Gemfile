@@ -24,10 +24,11 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 gem 'haml'
+gem 'pg'
 gem 'httparty'
 gem 'nokogiri'
 gem 'bcrypt-ruby'
-gem 'twitter-bootstrap-rails'
+gem 'bootstrap-sass'
 gem "font-awesome-rails"
 gem 'kendoui-rails', git: 'https://github.com/kendo-labs/kendo-rails.git'
 gem 'rails_config'
