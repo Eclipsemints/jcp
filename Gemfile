@@ -23,7 +23,6 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
-gem 'sqlite3'
 gem 'haml'
 gem 'httparty'
 gem 'nokogiri'
@@ -34,7 +33,6 @@ gem 'kendoui-rails', git: 'https://github.com/kendo-labs/kendo-rails.git'
 gem 'rails_config'
 gem 'pie-rails'
 gem 'webrick', '~> 1.3.1'
-gem 'sequel', require: 'sequel/no_core_ext'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
