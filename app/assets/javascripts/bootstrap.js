@@ -10,8 +10,8 @@ $(function () {
     $("img").css("min-height", wHeight);
     $("img").css("max-height", wHeight);
   }
-  $(".carousel-control").css("top", $(window).height() / 2);
+  $(".carousel-control").css("top", $(window).height() / 2 - 100);
 });
 $(window).resize(function(){
-  $(".carousel-control").css("top", $(window).height() / 2);
+  $(".carousel-control").css("top", $(window).height() / 2 - 100);
 });
